@@ -1,0 +1,137 @@
+/* Large Layout: 1200px. */
+
+@media only screen and (min-width: 1200px) {
+    .container {padding: 0;} 
+    .container-fluid {padding: 0;} 
+    .slicknav_menu {display: none;} 
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .featured-area-v1 .single-featured-item {padding: 40px 35px; height: 380px;} 
+    .featured-area-v1 .single-featured-item.black-bg {background: #252525 none repeat scroll 0 0; height: 395px; padding-bottom: 46px; padding-top: 49px; position: relative; top: -15px;}
+    .why-choose-us-area .why-choose-us-content {padding-right: 50px;}
+    .why-choose-us-area .why-choose-us-right .img-holder img {left: 0px;}
+    .features-listing-area .text {padding-left: 30%;}
+    .features-carosell .owl-controls {left: -38%;}
+}
+
+
+/* Medium screen  */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .slicknav_menu {display: none;}
+    .header .header-content {width: 745px; border: 1px solid #404040;}
+    .featured-area-v1 .container-fluid {padding: 0;}
+    .featured-area-v1 .single-featured-item {height: 420px; padding: 30px 30px;}
+    .featured-area-v1 .single-featured-item.black-bg {background: #252525 none repeat scroll 0 0; height: 435px; padding: 40px 30px; position: relative; top: -15px;}
+    .footer-contact-info ul li {padding: 33px 30px 27px 7px; border-right: none;}
+    .single-footer-widget .about-text p {padding-right: 10px;}
+    .features-carosell {padding-top: 80px;}
+    .features-carosell .owl-controls {left: 0px; position: absolute; top: 0%;}
+    .wheel-changing-area .wheel-changing .img-holder {width: 100%; padding-top: 0;}
+    .wheel-changing-area .wheel-changing .img-holder img {width: 100%;}
+    .wheel-changing-area .wheel-changing .content {left: 0; padding: 40px 40px 45px 30px; position: relative;}
+    .why-choose-us-area {padding-bottom: 28px;}
+    .why-choose-us-area .why-choose-us-right .img-holder img {left: 120px; top: 30px;}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slicknav_menu {display: none;}
+    .header .header-content {width: 700px; border: 1px solid #404040;}
+    .header .search-bar {float: right; padding-top: 18px; position: relative; top: -220px; right: 20px;}
+    .mainmenu .navigation li {margin-right: 45px;}
+    .featured-area-v1 .container-fluid {padding: 0;}
+    .featured-area-v1 .single-featured-item.black-bg {top: 0;}
+    .meet-our-team-area {padding-bottom: 95px; padding-top: 100px;}
+    .meet-our-team-area .single-team-member {margin-bottom: 35px;}
+    .single-team-member .member-info .transform-bg {transform: skewY(6deg);}
+    .footer-contact-info ul {overflow: hidden; padding-top: 30px;}
+    .footer-contact-info ul li {border-right: medium none; float: none; margin: 0 auto; padding: 0; width: 430px; padding-bottom: 30px; overflow: hidden;}
+    .single-footer-widget {border-right: none; height: 220px; padding-bottom: 55px; padding-top: 52px;}
+    .footer-area .services-widget {padding-left: 15px; padding-right: 15px;}
+    .footer-area .working-hour-widget {padding-left: 15px; padding-right: 15px;}
+    .footer-area .subscirbe-newsletter-form-widget {padding-left: 15px;}
+    .single-footer-widget .subscirbe-newsletter-form {width: 275px;}
+    .copyright-area {margin-top: 60px;}
+    .features-carosell {padding-top: 80px;}
+    .features-carosell .owl-controls {left: 0px; position: absolute; top: 0%;}
+    .wheel-changing-area .wheel-changing .img-holder {width: 100%; padding-top: 0;}
+    .wheel-changing-area .wheel-changing .img-holder img {width: 100%;}
+    .wheel-changing-area .wheel-changing .content {left: 0; padding: 40px 40px 45px 30px; position: relative;}
+    .featured-area-v2 {padding-bottom: 44px;}
+    .featured-area-v2 .single-featured-item {margin-bottom: 40px;}
+    .why-choose-us-area {padding-bottom: 35px;}
+    .why-choose-us-area .why-choose-us-right .img-holder img {top: 35px;}
+    .footer-contact-info-area.service-v2-page-bg {background: #F9F9F9 none repeat scroll 0 0;}
+    .sidebar-wrapper {padding-top: 80px;}
+}
+
+@media (max-width: 600px) {
+    .tp-caption {display: none !important;}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .slicknav_menu {display: block;}
+    .header-area {padding-bottom: 30px;}
+    .header .header-content .bottom {display: none;}
+    .header .logo {text-align: center; width: 100%; padding-bottom: 15px;}
+    .header .header-content {border-left: medium none; border-right: medium none; float: none; width: 100%; text-align: center;}
+    .header .header-content .top {padding-bottom: 0; padding-left: 0; padding-top: 0;}
+    .header .header-content .top .welcome-text {float: none; width: 100%; text-align: center;}
+    .header .header-content .top .header-social-links {float: none; margin-right: 0; width: 205px; overflow: hidden; margin: 0 auto; padding-top: 15px; padding-bottom: 20px;}
+    .header .header-content .top .header-social-links a {float: left; margin: 0 3px;}
+    .header .search-bar .search-form {width: 180px; margin: 0 auto;}
+    .header .search-bar {float: none; padding-top: 10px; text-align: center;}
+    .featured-area-v1 .container-fluid {padding: 0;}
+    .featured-area-v1 .single-featured-item .icon-holder,
+    .featured-area-v1 .single-featured-item .content {display: block;}
+    .featured-area-v1 .single-featured-item .icon-holder {width: 100%; text-align: center; padding-bottom: 25px;}
+    .featured-area-v1 .single-featured-item .content {padding-left: 0; text-align: center;}
+    .featured-area-v1 .single-featured-item.black-bg {top: 0;}
+    .accordion-box .accordion .acc-btn {line-height: 23px;}
+    .welcome-area .welcome-content {padding: 0 30px; text-align: justify;}
+    .welcome-content .button a.what-we-do {padding-left: 10px; width: 130px; margin-bottom: 10px;}
+    .welcome-content .button a.quote {width: 130px;}
+    .welcome-content .button a.quote i {padding-left: 10px;}
+    .meet-our-team-area {padding-bottom: 95px; padding-top: 100px;}
+    .meet-our-team-area .single-team-member {margin-bottom: 35px;}
+    .single-team-member .member-info .transform-bg {transform: skewY(3deg);}
+    .footer-contact-info ul {overflow: hidden; padding-top: 30px;}
+    .footer-contact-info ul li {border-right: medium none; float: none; margin: 0 auto; padding: 0; width: 310px; padding-bottom: 30px; overflow: hidden;}
+    .footer-contact-info ul li .text {padding-left: 15px;}
+    .footer-contact-info ul li .text h6 {margin: 2px 0 0;}
+    .footer-contact-info ul li .icon-holder {height: 40px; width: 40px; padding: 4px 0;}
+    .footer-area {padding-top: 100px;}
+    .single-footer-widget {border-right: medium none; height: 200px; padding-bottom: 0; padding-top: 0;}
+    .footer-area .services-widget {padding-left: 15px; padding-right: 15px;}
+    .footer-area .working-hour-widget {padding-left: 15px; padding-right: 15px;}
+    .footer-area .subscirbe-newsletter-form-widget {padding-left: 15px;}
+    .copyright-area {margin-top: 40px;}
+    .copyright-area .copyright-text p {padding: 0 45px;}
+    .single-footer-widget .subscirbe-newsletter-form {width: 275px;}
+    .features-listing-area .text {padding-left: 0%; padding-top: 20px;}
+    .features-carosell {padding-top: 80px;}
+    .features-carosell .owl-controls {left: 0px; position: absolute; top: 5px;}
+    .wheel-changing-area .wheel-changing .img-holder {width: 100%; padding-top: 0;}
+    .wheel-changing-area .wheel-changing .img-holder img {width: 100%;}
+    .wheel-changing-area .wheel-changing .content {left: 0; padding: 40px 40px 45px 30px; position: relative;}
+    .featured-area-v2 {padding-bottom: 44px;}
+    .featured-area-v2 .single-featured-item {margin-bottom: 40px;}
+    .latest-blog-area {padding-bottom: 65px;}
+    .latest-blog-area .single-blog-post {padding-bottom: 35px;}
+    .car-repair-service-area {padding-bottom: 65px;}
+    .car-repair-service-area .single-item {margin-bottom: 35px;}
+    .why-choose-us-area {padding-bottom: 0;}
+    .why-choose-us-area .why-choose-us-right .img-holder img {width: auto; position: unset; margin-top: 50px;}
+    .sidebar-wrapper {padding-top: 80px;}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

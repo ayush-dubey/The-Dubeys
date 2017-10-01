@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<!-- Mirrored from preview.oklerthemes.com/?theme=Porto by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Oct 2017 15:43:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<title>Okler Themes | Porto</title>
+
+<!-- Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<!-- CSS Style -->
+<link rel="stylesheet" href="switcher/style.css"> 
+
+<!-- Used Fonts -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+
+<!-- JavaScript -->
+<script type="text/javascript" src="switcher/js/jquery-1.9.1.min.js"></script>
+
+<script >
+	var theme_list_open = false;
+	$(document).ready(function() {
+	    function e() {
+	        var e = $("#switcher")
+	            .height();
+	        $("#iframe")
+	            .attr("height",
+	                $(window).height() - e + "px")
+	    }
+	    IS_IPAD = navigator.userAgent.match(/iPad/i) != null;
+	    $(window).resize(function() {
+	        e()
+	    }).resize();
+	    $("#theme_select").click(function() {
+	        if (theme_list_open == true) {
+	            $(".center ul li ul").hide();
+	            theme_list_open = false
+	        } else {
+	            $(".center ul li ul").show();
+	            theme_list_open = true
+	        }
+	        return false
+	    });
+	    $("#theme_list ul li a").click(function() {
+	        var e = $(this).attr("rel").split(",");
+	        $("li.purchase a").attr("href", e[1]);
+	        $("li.remove_frame a").attr("href", e[0]);
+	        $("#iframe").attr("src", e[0]);
+	        window.location.href = "?theme=" + e[2] + ""
+	        $("li.close a").attr("src", e[0]);
+	        $("#theme_list a#theme_select").text($(this).text());
+	        $(".center ul li ul").hide();
+	        theme_list_open = false;
+	        return false
+	    });
+	    $("#header-bar").hide();
+	    clicked = "desktop";
+	    var t = {
+	        desktop: "100%",
+	        tabletlandscape: 1040,
+	        tabletportrait: 788,
+	        mobilelandscape: 500,
+	        mobileportrait: 340,
+	        placebo: 0
+	    };
+	    jQuery(".responsive a").on("click", function() {
+	        var e = jQuery(this);
+	        for (device in t) {
+	            console.log(device);
+	            console.log(t[device]);
+	            if (e.hasClass(device)) {
+	                clicked = device;
+	                jQuery("#iframe").width(t[device]);
+	                if (clicked == device) {
+	                    jQuery(".responsive a").removeClass("active");
+	                    e.addClass("active")
+	                }
+	            }
+	        }
+	        return false
+	    });
+	    if (IS_IPAD) {
+	        $("#iframe").css("padding-bottom", "60px")
+	    }
+	})
+</script>
+
+</head>
+
+<body>
+
+    <div id="switcher">
+		<div class="center">
+            <div class="logo">
+                <a href="http://www.okler.net/" target="_blank" title="Okler Themes"><img src="switcher/images/logo.png" alt="Okler Themes" /></a>
+            </div>
+            				
+                <ul>
+                    <li id="theme_list"><a id="theme_select" href="#">
+					Porto</a>
+				<ul>
+				                   <li class="button_a">
+					<a href="#" rel="http://preview.oklerthemes.com/porto/5.7.2/demos.html,http://themeforest.net/item/porto-responsive-html5-template/4106987?ref=Okler,Porto">Porto <span style="background:#000000">HTML5</span></a><img alt="" class="preview" src="switcher/themes/porto.png"></li><li class="button_a">
+					<a href="#" rel="http://preview.oklerthemes.com/porto-admin/1.7.0/,http://themeforest.net/item/porto-admin-responsive-html5-template/8539472?ref=Okler,Porto-Admin">Porto-Admin <span style="background:#000000">HTML5</span></a><img alt="" class="preview" src="switcher/themes/porto-admin.png"></li><li class="button_a">
+					<a href="#" rel="http://www.newsmartwave.net/wordpress/porto/,https://themeforest.net/item/porto-responsive-wordpress-ecommerce-theme/9207399?ref=Okler,Porto-Wordpress">Porto-Wordpress <span style="background:#000000">WORDPRESS</span></a><img alt="" class="preview" src="switcher/themes/porto-wordpress.png"></li><li class="button_a">
+					<a href="#" rel="http://www.newsmartwave.net/magento/porto/select.html,https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864?ref=Okler,Porto-Magento">Porto-Magento <span style="background:#000000">MAGENTO</span></a><img alt="" class="preview" src="switcher/themes/porto-magento.png"></li><li class="button_a">
+					<a href="#" rel="http://obest.org/shopify/porto/preview.html,https://themeforest.net/item/porto-ultimate-responsive-shopify-theme/19162959?ref=Okler,Porto-Shopify">Porto-Shopify <span style="background:#000000">SHOPIFY</span></a><img alt="" class="preview" src="switcher/themes/porto-shopify.png"></li><li class="button_a">
+					<a href="#" rel="http://refaktorthemes.com/porto/,https://themeforest.net/item/porto-responsive-drupal-7-theme/5219986?ref=Okler,Porto-Drupal">Porto-Drupal <span style="background:#000000">DRUPAL</span></a><img alt="" class="preview" src="switcher/themes/porto-drupal.png"></li><li class="button_a">
+					<a href="#" rel="http://obest.org/joomla/porto/,https://themeforest.net/item/porto-ultimate-responsive-joomla-template/19386367?ref=Okler,Porto-Joomla">Porto-Joomla <span style="background:#000000">DRUPAL</span></a><img alt="" class="preview" src="switcher/themes/porto-joomla.html"></li><li class="button_a">
+					<a href="#" rel="http://preview.oklerthemes.com/tucson/2.1.0/,http://themeforest.net/item/tucson-responsive-html5-template/6563817?ref=Okler,Tucson">Tucson <span style="background:#000000">HTML5</span></a><img alt="" class="preview" src="switcher/themes/tucson.png"></li>                </ul>
+                    </li>	
+                </ul>
+                <div class="responsive">
+                    <a href="#" class="desktop active" title="View Desktop Version"></a> 
+                    <a href="#" class="tabletlandscape" title="View Tablet Landscape (1024x768)"></a> 
+                    <a href="#" class="tabletportrait" title="View Tablet Portrait (768x1024)"></a> 
+                    <a href="#" class="mobilelandscape" title="View Mobile Landscape (480x320)"></a>
+                    <a href="#" class="mobileportrait" title="View Mobile Portrait (320x480)"></a>
+                </div>
+                
+                <ul class="links">
+                    <li class="purchase" rel="http://themeforest.net/item/porto-responsive-html5-template/4106987?ref=Okler">
+                    	<a href="http://themeforest.net/item/porto-responsive-html5-template/4106987?ref=Okler"><img src="switcher/images/purchase.png" alt="" /> Purchase</a>
+                    </li>		
+                    <li class="close" rel="porto/5.7.2/demos.html">
+                    	<a href="porto/5.7.2/demos.html"><img src="switcher/images/cross.png" alt="" /> Remove Frame</a>
+                    </li>		
+                </ul>
+        </div>
+    </div>
+	
+    <iframe id="iframe" src="porto/5.7.2/demos.html" frameborder="0" width="100%"></iframe>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+	
+		ga('create', 'UA-42715764-5', 'auto');
+		ga('send', 'pageview');
+		
+		(function($) {
+
+			'use strict';
+					
+			$('.purchase a').on('mousedown', function(e) {
+
+				var iframeLocation = $('#iframe').contents().get(0).location.href;
+				var iframeSrc = iframeLocation.replace($('#iframe').attr('src'),'');
+				
+				if (iframeSrc == '') {
+					iframeSrc = 'index.html';
+				}
+			
+				ga('send', 'event', 'purchase', 'Porto', iframeSrc);
+			});
+			
+		}).apply(this, [jQuery]);
+		
+	</script>
+	
+</body>
+
+<!-- Mirrored from preview.oklerthemes.com/?theme=Porto by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Oct 2017 15:44:46 GMT -->
+</html>

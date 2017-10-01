@@ -1,0 +1,33 @@
+HTTrack3.49-1+htsswf+htsjava launched on Sun, 01 Oct 2017 21:58:51 at http://pillar.mediumra.re/home-business-corporate.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://pillar.mediumra.re/home-business-corporate.html -O1 "C:\crmhome\pillar" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:13:02	Warning: 	file not stored in cache due to bogus state (broken size, expected 5082991 got 3565283): pillar.mediumra.re/video/video.mp4
+22:21:37	Error: 	"Not Found" (404) at link pillar.mediumra.re/fonts/glyphicons-halflings-regular.eot (from pillar.mediumra.re/css/bootstrap.css)
+22:21:37	Error: 	"Not Found" (404) at link pillar.mediumra.re/fonts/glyphicons-halflings-regular.eot? (from pillar.mediumra.re/css/bootstrap.css)
+22:21:37	Error: 	"Not Found" (404) at link pillar.mediumra.re/fonts/glyphicons-halflings-regular.woff (from pillar.mediumra.re/css/bootstrap.css)
+22:21:37	Error: 	"Not Found" (404) at link pillar.mediumra.re/fonts/glyphicons-halflings-regular.ttf (from pillar.mediumra.re/css/bootstrap.css)
+22:21:37	Error: 	"Not Found" (404) at link pillar.mediumra.re/fonts/glyphicons-halflings-regular.svg (from pillar.mediumra.re/css/bootstrap.css)
+22:21:37	Error: 	"Not Found" (404) at link pillar.mediumra.re/css/owl.video.play.png (from pillar.mediumra.re/css/owl.carousel.css)
+22:21:37	Error: 	"Not Found" (404) at link pillar.mediumra.re/img/thumbs/home24.jpg (from pillar.mediumra.re/index.html)
+22:21:37	Error: 	"Not Found" (404) at link pillar.mediumra.re/css/https://fonts.googleapis.com/css?family=Open+Sans:400,400italic%7CKarla:400,700 (from pillar.mediumra.re/home-business-startup-2.html)
+22:21:37	Warning: 	Retry after error -4 (Incorrect length (3565283 Bytes, 5082991 expected)) at link pillar.mediumra.re/video/video.mp4 (from pillar.mediumra.re/home-landing-service-3.html)
+22:23:08	Error: 	"Not Found" (404) at link pillar.mediumra.re/css.html (from pillar.mediumra.re/home-shop-media.html)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/variant/builder.html (from pillar.mediumra.re/variant/builder.html)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/img/small1.jpg (from pillar.mediumra.re/variant/builder.html)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/page-contact-form-simple.html (from pillar.mediumra.re/variant/builder.html)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/index.html (from pillar.mediumra.re/variant/builder.html)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/img/ (from pillar.mediumra.re/variant/css/style.css)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.eot (from pillar.mediumra.re/variant/theme/css/bootstrap.css)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.eot? (from pillar.mediumra.re/variant/theme/css/bootstrap.css)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.woff (from pillar.mediumra.re/variant/theme/css/bootstrap.css)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.ttf (from pillar.mediumra.re/variant/theme/css/bootstrap.css)
+22:26:25	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.svg (from pillar.mediumra.re/variant/theme/css/bootstrap.css)
+22:27:41	Error: 	"Not Found" (404) at link pillar.mediumra.re/variant/theme/css/owl.video.play.png (from pillar.mediumra.re/variant/theme/css/owl.carousel.css)
+
+HTTrack Website Copier/3.49-1 mirror complete in 28 minutes 50 seconds : 406 links scanned, 384 files written (50870790 bytes overall) [41835816 bytes received at 24182 bytes/sec], 11484969 bytes transferred using HTTP compression in 181 files, ratio 19%, 8.4 requests per connection
+(20 errors, 2 warnings, 0 messages)

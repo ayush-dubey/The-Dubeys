@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.wix.com	TRUE	/	FALSE	1999999999	visid_incap_133961	9x9+LAINSGOV4Y0yL+XeIK/P0FkAAAAAQUIPAAAAAADbFndPB2Vyo6pCxWpTlOqO
+.wix.com	TRUE	/	FALSE	1999999999	incap_ses_218_133961	4nTOam59M0hZGO63oH8GA6/P0FkAAAAASsEZP8IKp1AwZVMCz2vpYA==
+preview.oklerthemes.com	TRUE	/	FALSE	1999999999	PHPSESSID	6020246a760e9ba2a99763ea112d0a6e
+

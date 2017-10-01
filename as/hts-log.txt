@@ -1,0 +1,45 @@
+HTTrack3.49-1+htsswf+htsjava launched on Sun, 01 Oct 2017 21:13:48 at http://preview.oklerthemes.com/?theme=Porto +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://preview.oklerthemes.com/?theme=Porto -O1 "C:\crmhome\as" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:14:47	Error: 	"Not Found" (404) at link preview.oklerthemes.com/switcher/themes/porto-joomla.png (from preview.oklerthemes.com/?theme=Porto)
+21:16:55	Error: 	"Not Found" (404) at link preview.oklerthemes.com/index.html (from preview.oklerthemes.com/?theme=Porto)
+21:24:01	Warning: 	file not stored in cache due to bogus state (broken size, expected 828681 got 789860): preview.oklerthemes.com/porto/5.7.2/img/slides/slide-corporate-1.jpg
+22:12:00	Warning: 	Retry after error -4 (Incorrect length (789860 Bytes, 828681 expected)) at link preview.oklerthemes.com/porto/5.7.2/img/slides/slide-corporate-1.jpg (from preview.oklerthemes.com/porto/5.7.2/index-corporate-3.html)
+22:12:00	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/portfolio-single.html (from preview.oklerthemes.com/porto/5.7.2/index-corporate-4.html)
+22:12:01	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/examples/ (from preview.oklerthemes.com/porto/5.7.2/shortcodes-icons.html)
+22:12:01	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/portfolio-2-columns.html (from preview.oklerthemes.com/porto/5.7.2/index-footer-advanced.html)
+22:12:01	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/portfolio-3-columns.html (from preview.oklerthemes.com/porto/5.7.2/index-footer-advanced.html)
+22:12:01	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/portfolio-4-columns.html (from preview.oklerthemes.com/porto/5.7.2/index-footer-advanced.html)
+22:12:01	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shortcodes.html (from preview.oklerthemes.com/porto/5.7.2/index-footer-light-narrow.html)
+22:12:07	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto-admin/edge/assets/vendor/summernote/summernote-bs3.css (from preview.oklerthemes.com/porto/5.7.2/feature-admin-forms-advanced.html)
+22:19:55	Warning: 	file not stored in cache due to bogus state (broken size, expected 538153 got 499320): preview.oklerthemes.com/porto/5.7.2/img/demos/photography/gallery/landscape/3.jpg
+22:28:24	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/index.html (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-6.html)
+22:28:24	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/master/analytics/analytics.js (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-6.html)
+22:28:32	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/img/clients/client-1.jpg (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-7.html)
+22:28:44	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/img/demos/shop/bg-shop13-1.jpg (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-13.html)
+22:28:44	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/img/demos/shop/bg-shop13-2.jpg (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-13.html)
+22:28:50	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/ajax/img/projects/project.jpg (from preview.oklerthemes.com/porto/5.7.2/ajax/portfolio-ajax-project.html)
+22:28:50	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/ajax/img/projects/project-1.jpg (from preview.oklerthemes.com/porto/5.7.2/ajax/portfolio-ajax-project-1.html)
+22:28:50	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/ajax/img/projects/project-1-2.jpg (from preview.oklerthemes.com/porto/5.7.2/ajax/portfolio-ajax-project-1.html)
+22:28:50	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/ajax/img/projects/project-2.jpg (from preview.oklerthemes.com/porto/5.7.2/ajax/portfolio-ajax-project-2.html)
+22:28:50	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/ajax/img/projects/project-3.jpg (from preview.oklerthemes.com/porto/5.7.2/ajax/portfolio-ajax-project-3.html)
+22:28:50	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/ajax/img/projects/project-4.jpg (from preview.oklerthemes.com/porto/5.7.2/ajax/portfolio-ajax-project-4.html)
+22:28:50	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/ajax/img/projects/project-5.jpg (from preview.oklerthemes.com/porto/5.7.2/ajax/portfolio-ajax-project-5.html)
+22:28:50	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/ajax/img/projects/project-6.jpg (from preview.oklerthemes.com/porto/5.7.2/ajax/portfolio-ajax-project-6.html)
+22:28:50	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/ajax/img/projects/project-7.jpg (from preview.oklerthemes.com/porto/5.7.2/ajax/portfolio-ajax-project-7.html)
+22:28:50	Warning: 	Retry after error -4 (Incorrect length (499320 Bytes, 538153 expected)) at link preview.oklerthemes.com/porto/5.7.2/img/demos/photography/gallery/landscape/3.jpg (from preview.oklerthemes.com/porto/5.7.2/demo-photography-portfolio-full-width-grid.html)
+22:29:18	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/blog-post.html (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-6-blog.html)
+22:29:18	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/img/benefits/benefits-1.jpg (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-5-about-us.html)
+22:29:18	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/img/benefits/benefits-2.jpg (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-5-about-us.html)
+22:29:18	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/img/benefits/benefits-3.jpg (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-5-about-us.html)
+22:29:18	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/img/benefits/benefits-4.jpg (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-5-about-us.html)
+22:29:18	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/img/benefits/benefits-5.jpg (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-5-about-us.html)
+22:29:18	Error: 	"Not Found" (404) at link preview.oklerthemes.com/porto/5.7.2/shop/img/benefits/benefits-6.jpg (from preview.oklerthemes.com/porto/5.7.2/shop/demo-shop-5-about-us.html)
+
+HTTrack Website Copier/3.49-1 mirror complete in 1 hours 15 minutes 33 seconds : 2477 links scanned, 2444 files written (146592322 bytes overall), 2444 files updated [112226443 bytes received at 24757 bytes/sec], 41597299 bytes transferred using HTTP compression in 885 files, ratio 15%, 3.2 requests per connection
+(30 errors, 4 warnings, 0 messages)
